@@ -1,0 +1,19 @@
+$ tcpdump -n -i eth0 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:34:01.170971 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:34:01.864192 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:34:02.863023 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:34:04.177329 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:34:04.338600 IP 192.168.194.132.39260 > 54.239.27.88.443: Flags [.], ack 1151490391, win 62780, length 0
+14:34:04.338798 IP 192.168.194.132.39262 > 54.239.27.88.443: Flags [.], ack 775963480, win 62780, length 0
+14:34:04.338966 IP 192.168.194.132.39256 > 54.239.27.88.443: Flags [.], ack 750724728, win 62780, length 0
+14:34:04.339179 IP 54.239.27.88.443 > 192.168.194.132.39260: Flags [.], ack 1, win 64240, length 0
+14:34:04.339180 IP 54.239.27.88.443 > 192.168.194.132.39262: Flags [.], ack 1, win 64240, length 0
+14:34:04.339241 IP 54.239.27.88.443 > 192.168.194.132.39256: Flags [.], ack 1, win 64240, length 0
+14:34:04.864876 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:34:05.864224 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+^C
+12 packets captured
+12 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,11 @@
+$ tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:18:14.025818 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [P.], seq 926190177:926190333, ack 593138352, win 65535, length 156
+14:18:14.026579 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [.], ack 156, win 64240, length 0
+14:18:14.105369 IP 192.168.194.132.45056 > 192.168.194.2.domain: 22329+ PTR? 188.219.192.54.in-addr.arpa. (45)
+14:18:14.108917 IP 192.168.194.2.domain > 192.168.194.132.45056: 22329 1/0/0 PTR server-54-192-219-188.mrs52.r.cloudfront.net. (103)
+14:18:14.109206 IP 192.168.194.132.48045 > 192.168.194.2.domain: 2518+ PTR? 132.194.168.192.in-addr.arpa. (46)
+5 packets captured
+18 packets received by filter
+0 packets dropped by kernel

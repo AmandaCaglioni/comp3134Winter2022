@@ -1,0 +1,43 @@
+$ tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:15:32.274647 IP 192.168.194.132.45174 > 52.46.155.15.https: Flags [.], ack 1783005793, win 63750, length 0
+14:15:32.274728 IP 192.168.194.132.45172 > 52.46.155.15.https: Flags [.], ack 519133776, win 63449, length 0
+14:15:32.274803 IP 192.168.194.132.45176 > 52.46.155.15.https: Flags [.], ack 928849371, win 63750, length 0
+14:15:32.274864 IP 52.46.155.15.https > 192.168.194.132.45174: Flags [.], ack 1, win 64240, length 0
+14:15:32.274865 IP 52.46.155.15.https > 192.168.194.132.45172: Flags [.], ack 1, win 64240, length 0
+14:15:32.274919 IP 52.46.155.15.https > 192.168.194.132.45176: Flags [.], ack 1, win 64240, length 0
+14:15:32.312814 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [P.], seq 593112797:593115325, ack 926188775, win 64240, length 2528
+14:15:32.312843 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [.], ack 2528, win 65535, length 0
+14:15:32.315925 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [P.], seq 2528:2559, ack 1, win 64240, length 31
+14:15:32.315942 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [.], ack 2559, win 65535, length 0
+14:15:32.419663 IP 192.168.194.132.54533 > 192.168.194.2.domain: 8535+ PTR? 15.155.46.52.in-addr.arpa. (43)
+14:15:32.630690 IP 192.168.194.2.domain > 192.168.194.132.54533: 8535 NXDomain 0/1/0 (114)
+14:15:32.631427 IP 192.168.194.132.47996 > 192.168.194.2.domain: 32838+ PTR? 132.194.168.192.in-addr.arpa. (46)
+14:15:32.709654 IP 192.168.194.2.domain > 192.168.194.132.47996: 32838 NXDomain 0/0/0 (46)
+14:15:32.759325 IP 192.168.194.132.57630 > 192.168.194.2.domain: 18137+ PTR? 188.219.192.54.in-addr.arpa. (45)
+14:15:32.962953 IP 192.168.194.2.domain > 192.168.194.132.57630: 18137 1/0/0 PTR server-54-192-219-188.mrs52.r.cloudfront.net. (103)
+14:15:32.964150 IP 192.168.194.132.56688 > 192.168.194.2.domain: 52075+ PTR? 2.194.168.192.in-addr.arpa. (44)
+14:15:33.041269 IP 192.168.194.2.domain > 192.168.194.132.56688: 52075 NXDomain 0/0/0 (44)
+14:15:33.046152 IP 192.168.194.132.48408 > a104-69-161-175.deploy.static.akamaitechnologies.com.https: Flags [.], ack 589774070, win 63784, length 0
+14:15:33.047434 IP a104-69-161-175.deploy.static.akamaitechnologies.com.https > 192.168.194.132.48408: Flags [.], ack 1, win 64240, length 0
+14:15:33.087461 IP 192.168.194.132.38204 > 192.168.194.2.domain: 64973+ PTR? 175.161.69.104.in-addr.arpa. (45)
+14:15:33.289612 IP 192.168.194.2.domain > 192.168.194.132.38204: 64973 1/0/0 PTR a104-69-161-175.deploy.static.akamaitechnologies.com. (111)
+14:15:42.514123 IP 192.168.194.132.45174 > 52.46.155.15.https: Flags [.], ack 1, win 63750, length 0
+14:15:42.515334 IP 192.168.194.132.45172 > 52.46.155.15.https: Flags [.], ack 1, win 63449, length 0
+14:15:42.515408 IP 192.168.194.132.45176 > 52.46.155.15.https: Flags [.], ack 1, win 63750, length 0
+14:15:42.518057 IP 52.46.155.15.https > 192.168.194.132.45174: Flags [.], ack 1, win 64240, length 0
+14:15:42.518058 IP 52.46.155.15.https > 192.168.194.132.45172: Flags [.], ack 1, win 64240, length 0
+14:15:42.518059 IP 52.46.155.15.https > 192.168.194.132.45176: Flags [.], ack 1, win 64240, length 0
+14:15:43.284538 IP 192.168.194.132.48408 > a104-69-161-175.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1, win 63784, length 0
+14:15:43.284922 IP a104-69-161-175.deploy.static.akamaitechnologies.com.https > 192.168.194.132.48408: Flags [.], ack 1, win 64240, length 0
+14:15:48.115511 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [P.], seq 1:157, ack 2559, win 65535, length 156
+14:15:48.115837 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [.], ack 157, win 64240, length 0
+14:15:48.293949 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [P.], seq 2559:5040, ack 157, win 64240, length 2481
+14:15:48.293987 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [.], ack 5040, win 65535, length 0
+14:15:48.301944 IP server-54-192-219-188.mrs52.r.cloudfront.net.https > 192.168.194.132.38340: Flags [P.], seq 5040:5071, ack 157, win 64240, length 31
+14:15:48.301969 IP 192.168.194.132.38340 > server-54-192-219-188.mrs52.r.cloudfront.net.https: Flags [.], ack 5071, win 65535, length 0
+^C
+36 packets captured
+36 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,11 @@
+$tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:35:47.132635 IP 192.168.194.132.57250 > server-54-192-219-165.mrs52.r.cloudfront.net.https: Flags [P.], seq 3564848914:3564849015, ack 1998213649, win 65535, length 101
+14:35:47.133519 IP server-54-192-219-165.mrs52.r.cloudfront.net.https > 192.168.194.132.57250: Flags [.], ack 101, win 64240, length 0
+14:35:47.378732 IP server-54-192-219-165.mrs52.r.cloudfront.net.https > 192.168.194.132.57250: Flags [P.], seq 1:2688, ack 101, win 64240, length 2687
+14:35:47.378856 IP 192.168.194.132.57250 > server-54-192-219-165.mrs52.r.cloudfront.net.https: Flags [.], ack 2688, win 65535, length 0
+^C
+4 packets captured
+4 packets received by filter
+0 packets dropped by kernel

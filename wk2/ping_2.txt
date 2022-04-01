@@ -1,0 +1,12 @@
+C:\Users\User>ping 143.110.219.122
+
+Pinging 143.110.219.122 with 32 bytes of data:
+Reply from 143.110.219.122: bytes=32 time=303ms TTL=43
+Reply from 143.110.219.122: bytes=32 time=283ms TTL=43
+Reply from 143.110.219.122: bytes=32 time=291ms TTL=43
+Reply from 143.110.219.122: bytes=32 time=306ms TTL=43
+
+Ping statistics for 143.110.219.122:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 283ms, Maximum = 306ms, Average = 295ms

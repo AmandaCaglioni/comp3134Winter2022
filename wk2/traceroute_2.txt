@@ -1,0 +1,27 @@
+C:\Users\User>tracert 143.110.219.122
+
+Tracing route to 143.110.219.122 over a maximum of 30 hops
+
+  1     2 ms     1 ms     1 ms  192.168.8.1
+  2     *        *        *     Request timed out.
+  3    63 ms    93 ms   237 ms  10.75.160.129
+  4    29 ms    49 ms   149 ms  10.180.168.146
+  5     *        *        *     Request timed out.
+  6    55 ms    64 ms    55 ms  10.80.238.134
+  7    58 ms    90 ms    36 ms  119.156.25.49
+  8    45 ms    29 ms    43 ms  10.253.8.20
+  9    64 ms    60 ms    57 ms  10.253.4.16
+ 10    72 ms    52 ms    57 ms  10.253.4.4
+ 11   197 ms   480 ms   160 ms  et-0-0-21.edge4.Marseille1.Level3.net [212.73.201.229]
+ 12   210 ms   197 ms   240 ms  mei-b4-link.ip.twelve99.net [80.239.134.84]
+ 13   328 ms   316 ms   272 ms  prs-bb1-link.ip.twelve99.net [62.115.118.218]
+ 14   220 ms   197 ms   191 ms  ldn-bb1-link.ip.twelve99.net [62.115.135.24]
+ 15   268 ms   261 ms   258 ms  nyk-bb2-link.ip.twelve99.net [62.115.113.20]
+ 16   282 ms   269 ms   266 ms  toro-b2-link.ip.twelve99.net [62.115.123.109]
+ 17   314 ms   285 ms   279 ms  toro-b5-link.ip.twelve99.net [62.115.117.228]
+ 18   313 ms   281 ms   271 ms  digitalocean-ic313813-toro-b1.ip.twelve99-cust.net [62.115.9.210]
+ 19   283 ms   285 ms   277 ms  138.197.249.83
+ 20     *        *        *     Request timed out.
+ 21   642 ms   794 ms   295 ms  143.110.219.122
+
+Trace complete.

@@ -1,0 +1,14 @@
+$tcpdump -i eth0 src 192.168.194.1
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:40:56.862054 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:40:58.242807 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:40:58.860371 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:40:59.858859 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:41:01.251404 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:41:01.860477 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+14:41:02.861105 ARP, Request who-has 192.168.194.2 tell 192.168.194.1, length 46
+^C
+7 packets captured
+7 packets received by filter
+0 packets dropped by kernel
