@@ -1,0 +1,7 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i any > all_traffic_20220401_0900.txt
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on any, link-type LINUX_SLL (Linux cooked v1), capture size 262144 bytes
+^C
+253 packets captured
+331 packets received by filter
+3 packets dropped by kernel
